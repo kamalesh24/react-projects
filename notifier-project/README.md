@@ -1,8 +1,7 @@
-# React + Vite
+# Notifier : React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a notification-component used in messenger application.
 
-Currently, two official plugins are available:
+It updates the notification icon to indicate message received by the user, and also displays the sender's username and the message.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+useState() hook is used to rerender the notication-icon as soon as a message is received, and clears it after the message is read.
