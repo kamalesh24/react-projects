@@ -5,3 +5,8 @@ This react-component generates a password based on the settings like:
     - include numbers
     - include special characters
 
+React-Hooks used are:
+    - useState()
+    - useEffect()
+    - useCallback()
+    
