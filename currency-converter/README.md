@@ -8,7 +8,7 @@
 **1. Created a custom hook - _useCurrencyInfo_:**
 
 The values of the currencies are _fetched_ using the api URL: 
-https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/_${currency}_.json
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json
 
 * Replace _{currency}_ with the currency-type data you want to obtain _like_, for "usd", "inr", etc.
 
