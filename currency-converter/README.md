@@ -1,6 +1,7 @@
 # Currency Converter : React + TailwindCSS
 
-
+### Project preview
+![Project Preview](./public/project-screenshot.png)
 
 ### Key components of the project
 
